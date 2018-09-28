@@ -1,0 +1,49 @@
+/* .jumbotron{
+    background-image: url(http://3.bp.blogspot.com/-E1rlQN-YPYA/Vd925nnWJDI/AAAAAAAASgA/wsW9EPfMh1U/s1600/beach-best-hd-wallpaper-1895-wallpaper-computer-best-website.jpg);
+    width:100%;
+    height:500px;
+    position:100% fixed;
+
+
+} */
+
+/* #fix{
+    width: 50px; height:50px;
+} */
+
+.pic{
+    background: url("http://3.bp.blogspot.com/-E1rlQN-YPYA/Vd925nnWJDI/AAAAAAAASgA/wsW9EPfMh1U/s1600/beach-best-hd-wallpaper-1895-wallpaper-computer-best-website.jpg") 100% fixed;
+    height: 600px; 
+    width:100%;
+}
+
+.resort{
+    position: absolute;
+    display:grid;
+    grid-template-columns: repeat(3,525px);
+    /* grid-template-areas: 'left center right'; */
+}
+
+#text{
+    /* grid-area:center; */
+    position: fixed;
+    margin-left: 40%;
+    color:white;
+    font-family: 'Mali', cursive;
+    margin-top:20%;
+}
+
+body{
+    background-color:Black;
+}
+
+#text2{
+    font-family: 'Mali', cursive;
+    color:white;
+}
+
+.dot1{
+    border-radius: 50%;color:yellow ;
+    
+
+}

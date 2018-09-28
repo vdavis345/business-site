@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap Workshop!</title>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -14,47 +14,113 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
 </head>
 <title>business-site</title>
 
 <body>
 
-  <div class="container">
+  <div class="container-fluid">
 
 
     <div class="row">
 
       <div class="col-sm-6">
-        <h1> website</h1>
+        <h1> Vinny's Resort</h1>
       </div>
       <div class="col-sm-6">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="aboutus.html">About </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="index.html">Home</a>
+                  <a class="dropdown-item" href="contactus.html">Contact</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="aboutus.html">About Us</a>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>
+
             </ul>
+
           </div>
-        </nav
+        </nav>
       </div>
 
 
     </div>
 
+    <div class="resort">
+      <h1 id="text">stay here</h1>
+    </div>
+
+    <section class='pic'>
+
+    </section>
+
+  </div>
+  <div class="row">
+
+    <div class="col-sm-6">
+      <center>
+        <h1 id="text2">Header</h1>
+      </center>
+      <center>
+        <p id="text2">Resort stuff Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam animi quibusdam
+          ratione, porro
+          repellendus nemo consequuntur culpa sed obcaecati? Labore eligendi atque perferendis veniam ab beatae nobis,
+          sunt ipsa maxime!</p>
+      </center>
+      <a></a>
+    </div>
+    <div class="col-sm-6">
+      <!--add image-->
+      <img src="https://greenvalleyranch.sclv.com/~/media/Images/Page-Background-Images/GVR/Hotel/GV_Hotel_Exterior4Pool-2012.jpg?h=630&la=en&w=1080">
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="dot1"></div>
+        <ul>
+        
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, nostrum.</li>
+      </ul>
+      </div>
+
+      <div class="col-sm-3">
+        <ul>
+          <h1></h1>
+          <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, quasi!</li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+       <ul> 
+        <h1></h1> 
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, alias?</li>
+      </ul>
+      </div>
+      <div class="col-sm-3">
+        <h1></h1>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, non.</li>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -62,29 +128,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="row"></div>
-    <div class="row"></div>
-    <div class="row"></div>
-    <div class="row"></div>
-    <div class="row"></div>
-    <div class="row"></div>
-    <div class="row"></div>
 
 
   </div>
