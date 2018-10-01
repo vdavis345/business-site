@@ -7,9 +7,7 @@
 
 } */
 
-/* #fix{
-    width: 50px; height:50px;
-} */
+
 
 .pic{
     background: url("http://3.bp.blogspot.com/-E1rlQN-YPYA/Vd925nnWJDI/AAAAAAAASgA/wsW9EPfMh1U/s1600/beach-best-hd-wallpaper-1895-wallpaper-computer-best-website.jpg") 100% fixed;
@@ -46,4 +44,25 @@ body{
     border-radius: 50%;color:yellow ;
     
 
+}
+
+body{
+    background-color:black;
+}
+
+#text{
+    color:white;
+}
+
+#foot{
+    color:white;
+}
+
+#vinny{
+    color:white;
+    font-family: 'Mali', cursive;
+}
+
+#about{
+    color:white;
 }
